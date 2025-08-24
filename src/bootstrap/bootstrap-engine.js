@@ -909,7 +909,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
             },
             'basic-memory': {
                 command: 'npx', 
-                args: ['-y', '--package=@modelcontextprotocol/server-basic-memory', 'basic-memory-server'],
+                args: ['-y', '@modelcontextprotocol/server-memory'],
                 env: {}
             }
         };

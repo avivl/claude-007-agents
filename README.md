@@ -178,10 +178,10 @@ npm --version   # npm v6+ required for package management
 npm install -g task-master-ai
 
 # Basic Memory MCP (for organizational learning)
-npm install -g @modelcontextprotocol/server-basic-memory
+npm install -g @modelcontextprotocol/server-memory
 
 # Context7 MCP (for live documentation)
-npm install -g @modelcontextprotocol/server-context7
+npm install -g @upstash/context7-mcp
 
 # Bootstrap System Dependencies (automatically handled)
 # These are included when you clone the repo - no separate installation needed

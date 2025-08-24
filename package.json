@@ -24,10 +24,10 @@
   },
   "peerDependencies": {
     "task-master-ai": "*",
-    "@modelcontextprotocol/server-basic-memory": "*"
+    "@modelcontextprotocol/server-memory": "*"
   },
   "optionalDependencies": {
-    "@modelcontextprotocol/server-context7": "*",
+    "@upstash/context7-mcp": "*",
     "sequential-thinking-mcp": "*",
     "zen-mcp-server": "*"
   },
