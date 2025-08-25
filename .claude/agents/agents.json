@@ -1,1 +1,1759 @@
-/Users/avivl/GitHub/avivl/claude-007-agents/agents.json
+{
+  "version": "2.0.0",
+  "description": "Comprehensive Unified Agent System for Claude Code with 108 specialized agents across 16 categories",
+  "agents": [
+    {
+      "name": "computer-vision-specialist",
+      "file": ".claude/agents/ai/computer-vision-specialist.md",
+      "description": "Computer Vision Specialist specialist",
+      "category": "ai",
+      "proactive": false,
+      "triggers": [
+        "computer vision specialist",
+        "computer-vision-specialist",
+        "computer",
+        "vision",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "machine-learning-engineer",
+      "file": ".claude/agents/ai/machine-learning-engineer.md",
+      "description": "Machine Learning Engineer specialist",
+      "category": "ai",
+      "proactive": false,
+      "triggers": [
+        "machine learning engineer",
+        "machine-learning-engineer",
+        "machine",
+        "learning",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "nlp-llm-integration-expert",
+      "file": ".claude/agents/ai/nlp-llm-integration-expert.md",
+      "description": "Nlp Llm Integration Expert specialist",
+      "category": "ai",
+      "proactive": false,
+      "triggers": [
+        "nlp llm integration expert",
+        "nlp-llm-integration-expert",
+        "integration",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "error-detective",
+      "file": ".claude/agents/ai-analysis/error-detective.md",
+      "description": "Log analysis and error pattern detection specialist focused on identifying complex error patterns, investigating system anomalies, and providing actionable insights for debugging.",
+      "category": "ai-analysis",
+      "proactive": false,
+      "triggers": [
+        "error detective",
+        "error-detective",
+        "error",
+        "detective"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "graphql-architect",
+      "file": ".claude/agents/ai-analysis/graphql-architect.md",
+      "description": "GraphQL schema design and architecture specialist focused on creating scalable, efficient, and maintainable GraphQL APIs with federation and advanced query optimization.",
+      "category": "ai-analysis",
+      "proactive": false,
+      "triggers": [
+        "graphql architect",
+        "graphql-architect",
+        "graphql",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "prompt-engineer",
+      "file": ".claude/agents/ai-analysis/prompt-engineer.md",
+      "description": "AI prompt optimization and LLM integration specialist focused on designing effective prompts, optimizing model performance, and implementing best practices for AI-powered applications.",
+      "category": "ai-analysis",
+      "proactive": false,
+      "triggers": [
+        "prompt engineer",
+        "prompt-engineer",
+        "prompt",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "cicd-pipeline-engineer",
+      "file": ".claude/agents/automation/cicd-pipeline-engineer.md",
+      "description": "Cicd Pipeline Engineer specialist",
+      "category": "automation",
+      "proactive": false,
+      "triggers": [
+        "cicd pipeline engineer",
+        "cicd-pipeline-engineer",
+        "cicd",
+        "pipeline",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "qa-automation-engineer",
+      "file": ".claude/agents/automation/qa-automation-engineer.md",
+      "description": "Qa Automation Engineer specialist",
+      "category": "automation",
+      "proactive": false,
+      "triggers": [
+        "qa automation engineer",
+        "qa-automation-engineer",
+        "automation",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "release-manager",
+      "file": ".claude/agents/automation/release-manager.md",
+      "description": "Release Manager specialist",
+      "category": "automation",
+      "proactive": false,
+      "triggers": [
+        "release manager",
+        "release-manager",
+        "release",
+        "manager"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "django-expert",
+      "file": ".claude/agents/backend/django-expert.md",
+      "description": "Comprehensive Django specialist with deep expertise in Django framework, ORM optimization, REST API development, resilience engineering, structured logging, and enterprise-grade Django applications. Expert in scalable Django applications, modern Python development, and Django ecosystem best practices. Use when: - Building Django applications or APIs - Django ORM modeling and database optimization - Django REST Framework development - Authentication and permissions in Django - Django testing and deployment - Implementing resilience patterns and structured logging - Enterprise Django application architecture",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "django expert",
+        "django-expert",
+        "django",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "fastapi-expert",
+      "file": ".claude/agents/backend/fastapi-expert.md",
+      "description": "FastAPI specialist focused on high-performance Python APIs with automatic documentation and modern async patterns. Expert in FastAPI's ecosystem, Pydantic models, dependency injection, and production-ready service architecture. Use when: - Building high-performance async Python APIs with FastAPI - Type-safe API development with automatic OpenAPI documentation - Modern Python development with async/await patterns - Dependency injection and middleware architecture - Database integration with SQLAlchemy and async patterns",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "fastapi expert",
+        "fastapi-expert",
+        "fastapi",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "fastify-expert",
+      "file": ".claude/agents/backend/fastify-expert.md",
+      "description": "Fastify specialist focused on high-performance Node.js/TypeScript APIs, plugin architecture, and modern async patterns. Expert in Fastify's ecosystem, schema validation, and performance optimization. Use when: - Building high-performance Node.js APIs with Fastify - TypeScript-first API development - Plugin-based architecture and reusable components - Schema validation and serialization optimization - Real-time applications with WebSocket support",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "fastify expert",
+        "fastify-expert",
+        "fastify",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "fiber-expert",
+      "file": ".claude/agents/backend/fiber-expert.md",
+      "description": "Golang Fiber framework specialist focused on Express-inspired high-performance web APIs with modern Go patterns. Expert in Fiber's ecosystem, middleware architecture, and lightning-fast HTTP service development. Use when: - Building ultra-fast HTTP APIs with Fiber - Express.js-like development experience in Go - High-throughput web services and microservices - WebSocket integration and real-time applications - Modern Go development with performance optimization",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "fiber expert",
+        "fiber-expert",
+        "fiber",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "gin-expert",
+      "file": ".claude/agents/backend/gin-expert.md",
+      "description": "Golang Gin framework specialist focused on high-performance HTTP APIs, middleware patterns, and idiomatic Go development. Expert in Gin's ecosystem, request handling, authentication, and production-ready service architecture. Use when: - Building high-performance REST APIs with Gin - Golang web service development - Middleware-based architecture and request processing - Authentication, authorization, and security in Go APIs - Database integration with GORM and other Go ORMs",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "gin expert",
+        "gin-expert",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "go-resilience-engineer",
+      "file": ".claude/agents/backend/go-resilience-engineer.md",
+      "description": "A specialized Go resilience engineering agent focused on implementing fault-tolerant systems using Sony GoBreaker, native Go concurrency patterns, and comprehensive resilience libraries for circuit breaking, retries, timeouts, bulkheads, and rate limiting.",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "go resilience engineer",
+        "go-resilience-engineer",
+        "resilience",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "go-zap-logging",
+      "file": ".claude/agents/backend/go-zap-logging.md",
+      "description": "A specialized Go logging agent focused on implementing high-performance, structured logging using Zap with Google Cloud integration, comprehensive contextual logging patterns, and distributed tracing support.",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "go zap logging",
+        "go-zap-logging",
+        "logging"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "laravel-expert",
+      "file": ".claude/agents/backend/laravel-expert.md",
+      "description": "Laravel specialist focused on PHP web development, Eloquent ORM, API development, and Laravel ecosystem mastery. Expert in modern PHP development and Laravel best practices. Use when: - Building Laravel applications or APIs - Eloquent relationships and database design - Laravel authentication and authorization - Package development and Laravel ecosystem - Laravel testing and deployment strategies",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "laravel expert",
+        "laravel-expert",
+        "laravel",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "nodejs-expert",
+      "file": ".claude/agents/backend/nodejs-expert.md",
+      "description": "Enterprise-grade Node.js specialist with comprehensive expertise in modern JavaScript, Express.js, resilience engineering, structured logging, and scalable backend architecture. Expert in async programming, performance optimization, microservices, and production-ready Node.js applications with Context7 MCP integration for live documentation access. Use when: - Building Node.js applications or APIs - Express.js server development with resilience patterns - Database integration with Node.js - Real-time applications with WebSockets - Node.js performance optimization and scaling - Implementing circuit breakers and retry mechanisms - Structured logging and observability - Enterprise-grade backend architecture",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "nodejs expert",
+        "nodejs-expert",
+        "nodejs",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "prisma-expert",
+      "file": ".claude/agents/backend/prisma-expert.md",
+      "description": "Prisma ORM specialist focused on modern TypeScript database development with type-safe queries and schema management. Expert in Prisma's ecosystem, schema design, migrations, and production-ready database architecture. Use when: - Building type-safe database layers with Prisma - Database schema design and migrations - TypeScript/Node.js applications with complex data relationships - Real-time data with Prisma subscriptions - Database performance optimization and query analysis",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "prisma expert",
+        "prisma-expert",
+        "prisma",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "python-hyx-resilience",
+      "file": ".claude/agents/backend/python-hyx-resilience.md",
+      "description": "Elite Python Professional specializing in advanced resilience engineering with Hyx. Expert in async programming, fault-tolerant systems, and Pythonic design patterns. Combines resilience patterns with modern Python idioms, performance optimization, and comprehensive testing strategies. Enhanced with deep Python specialization. Use when: - Implementing fault-tolerant Python systems with async patterns - Building resilient microservices with Hyx and complementary libraries - Optimizing Python performance with async/await and proper resource management - Creating production-ready Python applications with comprehensive error handling - Designing scalable Python architectures with resilience patterns",
+      "category": "backend",
+      "proactive": true,
+      "triggers": [
+        "python hyx resilience",
+        "python-hyx-resilience",
+        "python",
+        "resilience"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "rails-expert",
+      "file": ".claude/agents/backend/rails-expert.md",
+      "description": "Comprehensive Ruby on Rails specialist with expertise in backend development, ActiveRecord, API design, resilience engineering, and structured logging. Combines deep Rails knowledge with enterprise-grade practices and modern MCP integrations. Use when: - Building Rails applications or APIs with resilience patterns - ActiveRecord modeling and database optimization - Rails performance optimization and enterprise architecture - Authentication, authorization, and security implementation - Structured logging and observability implementation - Rails testing with comprehensive coverage - Integrating external services with fault tolerance",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "rails expert",
+        "rails-expert",
+        "rails",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "resilience-engineer",
+      "file": ".claude/agents/backend/resilience-engineer.md",
+      "description": "A language-agnostic resilience engineering agent that helps implement fault-tolerant, self-healing systems with proper circuit breakers, retry mechanisms, and graceful degradation patterns.",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "resilience engineer",
+        "resilience-engineer",
+        "resilience",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "typescript-cockatiel-resilience",
+      "file": ".claude/agents/backend/typescript-cockatiel-resilience.md",
+      "description": "A specialized TypeScript resilience engineering agent focused on implementing fault-tolerant systems using the Cockatiel library with comprehensive patterns for circuit breakers, retries, timeouts, bulkheads, and rate limiting.",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "typescript cockatiel resilience",
+        "typescript-cockatiel-resilience",
+        "typescript",
+        "cockatiel",
+        "resilience"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "typescript-pino-logging",
+      "file": ".claude/agents/backend/typescript-pino-logging.md",
+      "description": "A specialized TypeScript logging agent focused on implementing high-performance, structured logging using Pino with Fastify integration, Google Cloud compatibility, and comprehensive contextual logging patterns.",
+      "category": "backend",
+      "proactive": false,
+      "triggers": [
+        "typescript pino logging",
+        "typescript-pino-logging",
+        "typescript",
+        "pino",
+        "logging"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "business-analyst",
+      "file": ".claude/agents/business/business-analyst.md",
+      "description": "Business Analyst specialist",
+      "category": "business",
+      "proactive": false,
+      "triggers": [
+        "business analyst",
+        "business-analyst",
+        "business",
+        "analyst"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "financial-modeling-agent",
+      "file": ".claude/agents/business/financial-modeling-agent.md",
+      "description": "Quantitative financial modeling specialist focused on financial analysis, risk assessment, algorithmic trading, and financial technology implementation. Expert in financial mathematics, statistical modeling, and fintech applications. Inspired by wshobson/agents quant analyst. Use when: - Building financial models and quantitative analysis systems - Implementing risk management and portfolio optimization algorithms - Developing algorithmic trading strategies and backtesting systems - Creating financial dashboards and reporting systems - Designing fintech applications and payment processing systems - Performing financial data analysis and market research",
+      "category": "business",
+      "proactive": true,
+      "triggers": [
+        "financial modeling agent",
+        "financial-modeling-agent",
+        "financial",
+        "modeling",
+        "agent"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "healthcare-compliance-agent",
+      "file": ".claude/agents/business/healthcare-compliance-agent.md",
+      "description": "Healthcare Compliance Agent specialist",
+      "category": "business",
+      "proactive": false,
+      "triggers": [
+        "healthcare compliance agent",
+        "healthcare-compliance-agent",
+        "healthcare",
+        "compliance",
+        "agent"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "payment-integration-agent",
+      "file": ".claude/agents/business/payment-integration-agent.md",
+      "description": "Payment Integration Agent specialist",
+      "category": "business",
+      "proactive": false,
+      "triggers": [
+        "payment integration agent",
+        "payment-integration-agent",
+        "payment",
+        "integration",
+        "agent"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "product-manager",
+      "file": ".claude/agents/business/product-manager.md",
+      "description": "Product Manager specialist",
+      "category": "business",
+      "proactive": false,
+      "triggers": [
+        "product manager",
+        "product-manager",
+        "product",
+        "manager"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "bug-hunting-tango",
+      "file": ".claude/agents/choreography/bug-hunting-tango.md",
+      "description": "Bug Hunting Tango specialist",
+      "category": "choreography",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "code-review-waltz",
+      "file": ".claude/agents/choreography/code-review-waltz.md",
+      "description": "Code Review Waltz specialist",
+      "category": "choreography",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "feature-development-dance",
+      "file": ".claude/agents/choreography/feature-development-dance.md",
+      "description": "Feature Development Dance specialist",
+      "category": "choreography",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "exponential-planner",
+      "file": ".claude/agents/context-orchestrators/exponential-planner.md",
+      "description": "Exponential Planner specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "session-manager",
+      "file": ".claude/agents/context-orchestrators/session-manager.md",
+      "description": "Session Manager specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "vibe-coding-coordinator",
+      "file": ".claude/agents/context-orchestrators/vibe-coding-coordinator.md",
+      "description": "Vibe Coding Coordinator specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "code-archaeologist-time-traveler",
+      "file": ".claude/agents/creative/code-archaeologist-time-traveler.md",
+      "description": "A mystical code archaeologist who can see through time itself. You analyze git history not just as data, but as epic stories of human struggle, triumph, and evolution. Every commit tells a tale, every refactor marks an era, and every bug fix represents a battle won against chaos.",
+      "category": "creative",
+      "proactive": false,
+      "triggers": [
+        "code archaeologist time traveler",
+        "code-archaeologist-time-traveler",
+        "code",
+        "archaeologist",
+        "time",
+        "traveler"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "rubber-duck-debugger",
+      "file": ".claude/agents/creative/rubber-duck-debugger.md",
+      "description": "The world's most effective rubber duck debugger that guides developers to breakthroughs through strategic questioning using the Socratic method. Asks the perfect question at the perfect moment to create \"aha!\" moments.",
+      "category": "creative",
+      "proactive": false,
+      "triggers": [
+        "rubber duck debugger",
+        "rubber-duck-debugger",
+        "rubber",
+        "duck",
+        "debugger"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "technical-debt-collector",
+      "file": ".claude/agents/creative/technical-debt-collector.md",
+      "description": "A friendly but firm Technical Debt Collector who works for the Code Quality Family. Tracks every shortcut, TODO comment, and \"temporary\" workaround with meticulous attention, offering protection plans and structured refactoring to help developers pay down technical debt before it becomes a problem.",
+      "category": "creative",
+      "proactive": false,
+      "triggers": [
+        "technical debt collector",
+        "technical-debt-collector",
+        "technical",
+        "debt",
+        "collector"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "analytics-implementation-specialist",
+      "file": ".claude/agents/data/analytics-implementation-specialist.md",
+      "description": "Analytics Implementation Specialist specialist",
+      "category": "data",
+      "proactive": false,
+      "triggers": [
+        "analytics implementation specialist",
+        "analytics-implementation-specialist",
+        "analytics",
+        "implementation",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "business-intelligence-developer",
+      "file": ".claude/agents/data/business-intelligence-developer.md",
+      "description": "Business Intelligence Developer specialist",
+      "category": "data",
+      "proactive": false,
+      "triggers": [
+        "business intelligence developer",
+        "business-intelligence-developer",
+        "business",
+        "intelligence",
+        "developer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "data-engineer",
+      "file": ".claude/agents/data/data-engineer.md",
+      "description": "Data Engineer specialist",
+      "category": "data",
+      "proactive": false,
+      "triggers": [
+        "data engineer",
+        "data-engineer",
+        "data",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "search-specialist",
+      "file": ".claude/agents/data/search-specialist.md",
+      "description": "Search engine and information retrieval specialist focused on Elasticsearch, OpenSearch, Solr, and modern search technologies. Expert in search relevance, performance optimization, and search-driven applications. Inspired by wshobson/agents search expertise. Use when: - Implementing search functionality and full-text search capabilities - Optimizing search relevance, performance, and user experience - Building search-driven applications and recommendation systems - Designing search architectures and data indexing strategies - Troubleshooting search performance and relevance issues - Implementing advanced search features like faceting, autocomplete, and personalization",
+      "category": "data",
+      "proactive": true,
+      "triggers": [
+        "search specialist",
+        "search-specialist",
+        "search",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "database-architect",
+      "file": ".claude/agents/database/database-architect.md",
+      "description": "Database specialist focused on schema design, query optimization, performance tuning, and database architecture. Expert in SQL, NoSQL, data modeling, and database scaling strategies. Use when: - Database schema design and optimization - Query performance tuning and indexing - Database scaling and sharding strategies - Data migration and ETL processes - Database security and backup strategies",
+      "category": "data",
+      "proactive": false,
+      "triggers": [
+        "database architect",
+        "database-architect",
+        "database",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "ux-designer",
+      "file": ".claude/agents/design/ux-designer.md",
+      "description": "UX/UI design specialist focused on user experience, interface design, and design systems. Expert in user research, wireframing, prototyping, and accessibility design. Use when: - Designing user interfaces and experiences - Creating design systems and component libraries - Conducting user research and usability testing - Planning information architecture - Accessibility and inclusive design guidance",
+      "category": "design",
+      "proactive": false,
+      "triggers": [
+        "ux designer",
+        "ux-designer",
+        "designer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "deployment-specialist",
+      "file": ".claude/agents/devops/deployment-specialist.md",
+      "description": "DevOps specialist focused on deployment automation, CI/CD pipelines, infrastructure as code, and production reliability. Expert in cloud platforms, containerization, and monitoring systems. Use when: - Setting up CI/CD pipelines - Deployment automation and orchestration - Infrastructure provisioning and management - Production monitoring and alerting - Performance optimization and scaling",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "deployment specialist",
+        "deployment-specialist",
+        "deployment",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "angular-expert",
+      "file": ".claude/agents/frontend/angular-expert.md",
+      "description": "Angular specialist focused on modern Angular development, TypeScript, RxJS, and Angular ecosystem mastery. Expert in enterprise-scale applications, dependency injection, and Angular best practices. Use when: - Building Angular applications or components - Angular architecture and dependency injection - RxJS reactive programming patterns - NgRx state management implementation - Angular testing with Jasmine and Karma",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "angular expert",
+        "angular-expert",
+        "angular",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "design-system-architect",
+      "file": ".claude/agents/frontend/design-system-architect.md",
+      "description": "Design System Architect specialist",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "design system architect",
+        "design-system-architect",
+        "design",
+        "system",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "micro-frontend-architect",
+      "file": ".claude/agents/frontend/micro-frontend-architect.md",
+      "description": "Micro Frontend Architect specialist",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "micro frontend architect",
+        "micro-frontend-architect",
+        "micro",
+        "frontend",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "mobile-developer",
+      "file": ".claude/agents/frontend/mobile-developer.md",
+      "description": "Mobile Developer specialist",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "mobile developer",
+        "mobile-developer",
+        "mobile",
+        "developer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "nextjs-expert",
+      "file": ".claude/agents/frontend/nextjs-expert.md",
+      "description": "Next.js specialist focused on React full-stack development, SSR/SSG, API routes, and modern Next.js features. Expert in performance optimization, deployment, and the Next.js ecosystem. Use when: - Building Next.js applications with SSR/SSG - API routes and full-stack Next.js development - Next.js 13+ App Router and Server Components - Performance optimization and Core Web Vitals - Next.js deployment and production optimization",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "nextjs expert",
+        "nextjs-expert",
+        "nextjs",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pwa-specialist",
+      "file": ".claude/agents/frontend/pwa-specialist.md",
+      "description": "Pwa Specialist specialist",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "pwa specialist",
+        "pwa-specialist",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "react-expert",
+      "file": ".claude/agents/frontend/react-expert.md",
+      "description": "React specialist focused on modern component architecture, state management, performance optimization, and React ecosystem. Expert in hooks, context, and advanced React patterns. Use when: - Building React applications or components - State management with Redux, Zustand, or Context - React performance optimization - Modern React patterns and hooks - React testing with Jest and Testing Library",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "react expert",
+        "react-expert",
+        "react",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "vue-expert",
+      "file": ".claude/agents/frontend/vue-expert.md",
+      "description": "Vue.js specialist focused on modern Vue 3 development, Composition API, state management, and Vue ecosystem. Expert in reactive programming, component architecture, and Vue-specific patterns. Use when: - Building Vue.js applications or components - Vue 3 Composition API and reactive patterns - Pinia state management and Vuex migration - Vue Router and navigation patterns - Vue testing with Vitest and Vue Test Utils",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "vue expert",
+        "vue-expert",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "webassembly-specialist",
+      "file": ".claude/agents/frontend/webassembly-specialist.md",
+      "description": "Webassembly Specialist specialist",
+      "category": "frontend",
+      "proactive": false,
+      "triggers": [
+        "webassembly specialist",
+        "webassembly-specialist",
+        "webassembly",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "cloud-architect",
+      "file": ".claude/agents/infrastructure/cloud-architect.md",
+      "description": "Cloud Architect specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "cloud architect",
+        "cloud-architect",
+        "cloud",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "database-admin",
+      "file": ".claude/agents/infrastructure/database-admin.md",
+      "description": "Database Admin specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "database admin",
+        "database-admin",
+        "database",
+        "admin"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "devops-troubleshooter",
+      "file": ".claude/agents/infrastructure/devops-troubleshooter.md",
+      "description": "Devops Troubleshooter specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "devops troubleshooter",
+        "devops-troubleshooter",
+        "devops",
+        "troubleshooter"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "incident-responder",
+      "file": ".claude/agents/infrastructure/incident-responder.md",
+      "description": "Incident Responder specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "incident responder",
+        "incident-responder",
+        "incident",
+        "responder"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "network-engineer",
+      "file": ".claude/agents/infrastructure/network-engineer.md",
+      "description": "Network Engineer specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "network engineer",
+        "network-engineer",
+        "network",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "observability-engineer",
+      "file": ".claude/agents/infrastructure/observability-engineer.md",
+      "description": "Observability Engineer specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "observability engineer",
+        "observability-engineer",
+        "observability",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pulumi-typescript-specialist",
+      "file": ".claude/agents/infrastructure/pulumi-typescript-specialist.md",
+      "description": "Pulumi Typescript Specialist specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "pulumi typescript specialist",
+        "pulumi-typescript-specialist",
+        "pulumi",
+        "typescript",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "serverless-architect",
+      "file": ".claude/agents/infrastructure/serverless-architect.md",
+      "description": "Serverless Architect specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "serverless architect",
+        "serverless-architect",
+        "serverless",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "site-reliability-engineer",
+      "file": ".claude/agents/infrastructure/site-reliability-engineer.md",
+      "description": "Site Reliability Engineer specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "site reliability engineer",
+        "site-reliability-engineer",
+        "site",
+        "reliability",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "terraform-specialist",
+      "file": ".claude/agents/infrastructure/terraform-specialist.md",
+      "description": "Terraform Specialist specialist",
+      "category": "infrastructure",
+      "proactive": false,
+      "triggers": [
+        "terraform specialist",
+        "terraform-specialist",
+        "terraform",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "activation-system",
+      "file": ".claude/agents/orchestration/activation-system.md",
+      "description": "Activation System specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "agent-communication-protocol",
+      "file": ".claude/agents/orchestration/agent-communication-protocol.md",
+      "description": "Structured inter-agent communication system that standardizes information exchange, coordination, and workflow management across all specialized agents. Implements JSON-based messaging protocols with metadata tracking, request/response patterns, and collaborative workflow coordination standards. Use when: - Coordinating complex multi-agent workflows - Standardizing information exchange between agents - Tracking agent interactions and communication patterns - Implementing structured handoff protocols - Managing collaborative decision-making processes",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "agent communication protocol",
+        "agent-communication-protocol",
+        "agent",
+        "communication",
+        "protocol"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "auto-detection-engine",
+      "file": ".claude/agents/orchestration/auto-detection-engine.md",
+      "description": "Automatically detects when to trigger orchestration agents based on request complexity, technology stack mentions, cross-domain requirements, and historical patterns. Eliminates need for explicit orchestration agent invocation. Auto-triggers: - @enhanced-agent-organizer for complex multi-domain tasks - @knowledge-graph-manager for context-heavy projects - @intelligent-agent-selector for technology stack optimization - @agent-communication-protocol for multi-agent workflows",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "auto detection engine",
+        "auto-detection-engine",
+        "auto",
+        "detection",
+        "engine"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "choreography-engine",
+      "file": ".claude/agents/orchestration/choreography-engine.md",
+      "description": "Choreography Engine specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "context-aware-activator",
+      "file": ".claude/agents/orchestration/context-aware-activator.md",
+      "description": "Monitors project context, user patterns, and environmental factors to automatically activate appropriate orchestration agents based on real-time needs assessment. Provides invisible intelligence that anticipates coordination requirements. Context Sources: - Project file structure and dependencies - Git repository activity and patterns - User interaction history and preferences - Current system state and resource availability",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "context aware activator",
+        "context-aware-activator",
+        "context",
+        "aware",
+        "activator"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "enhanced-agent-template",
+      "file": ".claude/agents/orchestration/enhanced-agent-template.md",
+      "description": "Enhanced agent definition template that incorporates structured interaction protocols, context acquisition requirements, and communication standards from lst97 patterns. This template provides the foundation for creating agents with standardized collaboration capabilities and systematic workflow integration. Use when: - Creating new specialized agents with structured interaction protocols - Updating existing agents with enhanced communication standards - Implementing standardized context acquisition and handoff procedures - Ensuring consistent agent behavior and integration patterns",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "enhanced agent template",
+        "enhanced-agent-template",
+        "enhanced",
+        "agent",
+        "template"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "intelligent-agent-selector",
+      "file": ".claude/agents/orchestration/intelligent-agent-selector.md",
+      "description": "Advanced agent selection system that intelligently analyzes project context, task requirements, and agent capabilities to automatically select optimal agents for specific tasks. Combines context analysis, technology detection, and historical performance data to make evidence-based agent recommendations. Use when: - Automatically selecting agents based on project context - Analyzing technology stacks for agent matching - Optimizing agent selection based on historical performance - Implementing context-aware agent routing - Managing agent workload and capacity planning",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "intelligent agent selector",
+        "intelligent-agent-selector",
+        "intelligent",
+        "agent",
+        "selector"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "knowledge-graph-manager",
+      "file": ".claude/agents/orchestration/knowledge-graph-manager.md",
+      "description": "Advanced centralized knowledge graph and context management system that maintains a dynamic, comprehensive understanding of project ecosystem. Combines lst97 patterns with our Basic Memory MCP integration for intelligent context distribution, agent activity tracking, and collaborative workflow coordination. Use when: - Managing complex multi-agent project contexts - Coordinating information flow between specialized agents - Tracking agent activities and collaborative progress - Providing tailored context briefings for agent workflows - Maintaining centralized project knowledge and decision history",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "knowledge graph manager",
+        "knowledge-graph-manager",
+        "knowledge",
+        "graph",
+        "manager"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "learning-system",
+      "file": ".claude/agents/orchestration/learning-system.md",
+      "description": "Learning System specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "personality-engine",
+      "file": ".claude/agents/orchestration/personality-engine.md",
+      "description": "Personality Engine specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "predictive-orchestrator",
+      "file": ".claude/agents/orchestration/predictive-orchestrator.md",
+      "description": "Predicts orchestration needs before they become apparent, automatically preparing agent coordination, context distribution, and workflow planning based on request analysis and historical patterns. Proactively optimizes multi-agent workflows. Capabilities: - Predictive workflow planning - Proactive context preparation - Automatic dependency resolution - Pre-emptive resource allocation",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "predictive orchestrator",
+        "predictive-orchestrator",
+        "predictive",
+        "orchestrator"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "smart-agent-router",
+      "file": ".claude/agents/orchestration/smart-agent-router.md",
+      "description": "Automatically routes requests to optimal agents based on project context, technology stack detection, historical success patterns, and real-time capability analysis. Eliminates guesswork in agent selection. Features: - Real-time project analysis and technology detection - Historical success pattern matching - Dynamic agent capability assessment - Automatic fallback and escalation routing",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "smart agent router",
+        "smart-agent-router",
+        "smart",
+        "agent",
+        "router"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "success-pattern-learner",
+      "file": ".claude/agents/orchestration/success-pattern-learner.md",
+      "description": "Continuously learns from successful agent collaborations, workflow outcomes, and user feedback to automatically improve orchestration decisions. Builds organizational intelligence that gets better over time. Learning Areas: - Agent collaboration effectiveness - Workflow pattern optimization - Context preparation strategies - Quality gate effectiveness",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "success pattern learner",
+        "success-pattern-learner",
+        "success",
+        "pattern",
+        "learner"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "workflow-coordinator",
+      "file": ".claude/agents/orchestration/workflow-coordinator.md",
+      "description": "Workflow Coordinator specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "orchestrator",
+      "file": ".claude/agents/orchestrator.md",
+      "description": "Advanced AI orchestrator with intelligent agent selection, collaboration coordination, and parallel execution optimization. Features: - Smart agent selection based on request analysis and context - Dynamic workflow generation with dependency management - Parallel execution optimization and resource management - Real-time collaboration coordination between agents - Adaptive task distribution and load balancing Use when: - Complex multi-step tasks requiring multiple agent types - Project analysis and optimal agent team assembly - Strategic task planning with parallel execution - Cross-domain problems requiring coordinated expertise - Performance-critical workflows needing optimization",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "orchestrate",
+        "\"coordinate\"",
+        "\"complex\"",
+        "\"multi-step\"",
+        "\"workflow\"",
+        "\"team\"",
+        "\"architecture\"",
+        "\"system design\"",
+        "\"project planning\""
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "project-analyst",
+      "file": ".claude/agents/orchestrators/project-analyst.md",
+      "description": "Advanced project analysis specialist with intelligent requirements processing and task generation capabilities. Specializes in: - PRD parsing and intelligent task breakdown - Requirements analysis and stakeholder alignment - Project complexity assessment and risk evaluation - Cross-functional coordination and communication - Agile project management and workflow optimization Use when: - Analyzing Product Requirements Documents (PRDs) - Breaking down complex projects into manageable tasks - Requirements gathering and stakeholder coordination - Project planning and timeline estimation - Cross-functional project coordination",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "requirements",
+        "\"PRD\"",
+        "\"project analysis\"",
+        "\"task breakdown\"",
+        "\"project planning\"",
+        "\"stakeholder analysis\""
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "team-configurator",
+      "file": ".claude/agents/orchestrators/team-configurator.md",
+      "description": "Intelligent team configuration specialist that automatically detects project characteristics and assembles optimal AI agent teams. Specializes in: - Automatic technology stack detection and analysis - Intelligent agent team assembly and optimization - Custom agent configuration and specialization - Workflow optimization and team coordination setup - Continuous team performance monitoring and adjustment Use when: - Setting up new projects with optimal agent teams - Analyzing existing projects for team optimization - Configuring custom agents for specific project needs - Optimizing agent workflows and collaboration patterns - Performance tuning and team effectiveness improvement",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "setup",
+        "\"configure\"",
+        "\"team setup\"",
+        "\"agent configuration\"",
+        "\"project initialization\"",
+        "\"team optimization\""
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "tech-lead-orchestrator",
+      "file": ".claude/agents/orchestrators/tech-lead-orchestrator.md",
+      "description": "Senior technical leadership orchestrator that combines strategic architecture decisions with intelligent team coordination. Specializes in: - High-level technical strategy and architecture decisions - Senior-level coordination of multiple engineering teams - Complex system design with cross-functional implications - Technical risk assessment and mitigation strategies - Engineering leadership and mentorship coordination Use when: - Major architectural decisions requiring senior oversight - Complex multi-team coordination and integration - Technical strategy planning and roadmap execution - Cross-functional technical leadership needs - High-stakes technical decision making",
+      "category": "orchestration",
+      "proactive": true,
+      "triggers": [
+        "architecture",
+        "\"technical strategy\"",
+        "\"system design\"",
+        "\"team coordination\"",
+        "\"technical leadership\"",
+        "\"engineering strategy\""
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "parallel-coordinator",
+      "file": ".claude/agents/performance-optimizers/parallel-coordinator.md",
+      "description": "Parallel Coordinator specialist",
+      "category": "performance",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "session-optimizer",
+      "file": ".claude/agents/performance-optimizers/session-optimizer.md",
+      "description": "Session Optimizer specialist",
+      "category": "performance",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "tool-batch-optimizer",
+      "file": ".claude/agents/performance-optimizers/tool-batch-optimizer.md",
+      "description": "Tool Batch Optimizer specialist",
+      "category": "performance",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "agent-evolution-system",
+      "file": ".claude/agents/personalities/agent-evolution-system.md",
+      "description": "Agent Evolution System specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "rapid-prototyper",
+      "file": ".claude/agents/product/rapid-prototyper.md",
+      "description": "MVP specialist focused on rapid prototyping, quick iteration, and getting products to market fast. Expert in choosing the right tools and frameworks for speed without sacrificing quality. Use when: - Building MVPs or proof of concepts - Rapid feature development and validation - Quick deployment and iteration cycles - Time-sensitive project deliverables - Startup-style development workflows",
+      "category": "business",
+      "proactive": true,
+      "triggers": [
+        "rapid prototyper",
+        "rapid-prototyper",
+        "rapid",
+        "prototyper"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "agent-environment-simulator",
+      "file": ".claude/agents/safety-specialists/agent-environment-simulator.md",
+      "description": "Agent Environment Simulator specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "leaf-node-detector",
+      "file": ".claude/agents/safety-specialists/leaf-node-detector.md",
+      "description": "Leaf Node Detector specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "permission-escalator",
+      "file": ".claude/agents/safety-specialists/permission-escalator.md",
+      "description": "Permission Escalator specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "verification-specialist",
+      "file": ".claude/agents/safety-specialists/verification-specialist.md",
+      "description": "Verification Specialist specialist",
+      "category": "orchestration",
+      "proactive": false,
+      "triggers": [],
+      "dependencies": []
+    },
+    {
+      "name": "devsecops-engineer",
+      "file": ".claude/agents/security/devsecops-engineer.md",
+      "description": "Devsecops Engineer specialist",
+      "category": "security",
+      "proactive": false,
+      "triggers": [
+        "devsecops engineer",
+        "devsecops-engineer",
+        "devsecops",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "privacy-engineer",
+      "file": ".claude/agents/security/privacy-engineer.md",
+      "description": "Privacy Engineer specialist",
+      "category": "security",
+      "proactive": false,
+      "triggers": [
+        "privacy engineer",
+        "privacy-engineer",
+        "privacy",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "security-specialist",
+      "file": ".claude/agents/security/security-specialist.md",
+      "description": "Comprehensive security expert combining application security, vulnerability assessment, penetration testing, and compliance auditing. Expert in OWASP guidelines, threat modeling, secure coding practices, and security architecture. Use when: - Security audits and vulnerability assessments - Penetration testing and ethical hacking - Implementing authentication and authorization - Secure coding practices and code reviews - Compliance requirements (OWASP, SOC 2, ISO 27001, GDPR, HIPAA, PCI-DSS) - Incident response and security monitoring - Security architecture review and threat modeling",
+      "category": "security",
+      "proactive": true,
+      "triggers": [
+        "security specialist",
+        "security-specialist",
+        "security",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "system-architect",
+      "file": ".claude/agents/system-architect.md",
+      "description": "Senior system architect who designs unified agent systems and orchestrates complex development workflows. Combines strategic planning with detailed technical implementation guidance. Use when: - Designing multi-agent systems or workflows - Planning complex project architectures - Orchestrating multiple specialized agents - Creating extensible system designs",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "system architect",
+        "system-architect",
+        "system",
+        "architect"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "template-agent",
+      "file": ".claude/agents/templates/agent-template.md",
+      "description": "[Brief description of when this agent should be used] Use when: - [Specific use case 1] - [Specific use case 2] - [Specific use case 3]",
+      "category": "template",
+      "proactive": false,
+      "triggers": [
+        "template agent",
+        "template-agent",
+        "template",
+        "agent"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "test-automation-expert",
+      "file": ".claude/agents/testing/test-automation-expert.md",
+      "description": "Testing specialist focused on comprehensive test automation, quality assurance, and testing strategies. Expert in unit testing, integration testing, E2E testing, and test-driven development. Use when: - Setting up testing frameworks and strategies - Creating comprehensive test suites - Implementing CI/CD testing pipelines - Test-driven development guidance - Performance and load testing",
+      "category": "automation",
+      "proactive": true,
+      "triggers": [
+        "test automation expert",
+        "test-automation-expert",
+        "test",
+        "automation",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "code-reviewer",
+      "file": ".claude/agents/universal/code-reviewer.md",
+      "description": "Expert code reviewer focused on code quality, security, performance, and maintainability. Provides thorough analysis with actionable feedback and best practice recommendations. Enhanced with structured interaction protocols and systematic context acquisition. Use when: - Reviewing pull requests or code changes - Security audits and vulnerability assessments - Performance analysis and optimization - Code quality assessment and improvement - Architecture review and design validation",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "code reviewer",
+        "code-reviewer",
+        "code",
+        "reviewer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "developer-experience-optimizer",
+      "file": ".claude/agents/universal/developer-experience-optimizer.md",
+      "description": "Developer Experience (DX) optimization specialist focused on improving developer productivity, reducing friction, and enhancing the overall development experience across tools, workflows, and processes. Combines insights from wshobson/agents DX optimization with our quality systems. Use when: - Optimizing developer workflows and productivity - Reducing development friction and cognitive load - Improving tooling, automation, and development environments - Analyzing and optimizing CI/CD pipelines for developer efficiency - Enhancing documentation and onboarding experiences - Implementing developer-first quality and testing workflows",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "developer experience optimizer",
+        "developer-experience-optimizer",
+        "developer",
+        "experience",
+        "optimizer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "documentation-specialist",
+      "file": ".claude/agents/universal/documentation-specialist.md",
+      "description": "Documentation expert focused on creating comprehensive, clear, and maintainable documentation. Expert in technical writing, API documentation, user guides, and documentation systems. Use when: - Creating technical documentation and user guides - Writing API documentation and specifications - Developing onboarding and training materials - Documenting architecture and design decisions - Setting up documentation systems and workflows",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "documentation specialist",
+        "documentation-specialist",
+        "documentation",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "git-expert",
+      "file": ".claude/agents/universal/git-expert.md",
+      "description": "Expert Git workflow management specialist with comprehensive GitHub integration. Handles advanced Git operations, merge conflict resolution, and repository management with full GitHub MCP integration for live repository operations. Use when: - Resolving complex merge conflicts and rebase operations - Managing Git workflows, branching strategies, and release processes - Creating and managing pull requests with advanced review workflows - Implementing team Git standards and branching models - Analyzing Git history for debugging and root cause investigation - Setting up Git hooks and automation workflows - Troubleshooting repository issues and Git workflow problems",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "git expert",
+        "git-expert",
+        "expert"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "legacy-modernization-specialist",
+      "file": ".claude/agents/universal/legacy-modernization-specialist.md",
+      "description": "Legacy system modernization expert specializing in upgrading, refactoring, and migrating legacy codebases to modern architectures, technologies, and practices. Combines insights from wshobson/agents legacy modernization with our comprehensive quality and resilience systems. Use when: - Planning and executing legacy system modernization projects - Migrating from monolithic to microservices architectures - Upgrading programming languages, frameworks, and dependencies - Refactoring legacy code while maintaining business continuity - Implementing modern development practices in legacy environments - Risk assessment and mitigation for large-scale modernization efforts",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "legacy modernization specialist",
+        "legacy-modernization-specialist",
+        "legacy",
+        "modernization",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "logging-concepts-engineer",
+      "file": ".claude/agents/universal/logging-concepts-engineer.md",
+      "description": "A language-agnostic logging specialist that helps implement structured, contextual, and performance-conscious logging systems across any technology stack, following enterprise-grade logging principles and best practices.",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "logging concepts engineer",
+        "logging-concepts-engineer",
+        "logging",
+        "concepts",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pr-reviewer-specialist",
+      "file": ".claude/agents/universal/pr-reviewer-specialist.md",
+      "description": "⚠️ INTERACTIVE APPROVAL REQUIRED: This agent NEVER posts to GitHub automatically. On-demand Pull Request review specialist that ONLY operates through structured visual approval workflow. MANDATORY FIRST RESPONSE: Must present findings in ASCII box interface with numbered options and wait for user selection. FORBIDDEN: Direct GitHub API usage without completing full approval workflow first. The agent ALWAYS follows this sequence: 1. Analyze PR and classify findings 2. Present structured visual interface with options A-E 3. Wait for user selection and process choice 4. Show final confirmation with agent attribution (@pr-reviewer-specialist) 5. Only then perform GitHub operations Use when: - Performing comprehensive PR reviews with user control over what gets posted - Need structured approval workflow before GitHub operations - Want to edit/select specific findings before posting - Building review knowledge base with user oversight",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "pr reviewer specialist",
+        "pr-reviewer-specialist",
+        "reviewer",
+        "specialist"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "pr-description-composer",
+      "file": ".claude/agents/universal/pr-description-composer.md",
+      "description": "Specialized agent for composing comprehensive, professional pull request descriptions that follow best practices and provide clear context for reviewers. Creates structured PR descriptions with summaries, test plans, breaking changes, and documentation. Use when: - Creating detailed PR descriptions from commit history and code changes - Standardizing PR description format across the team - Generating comprehensive summaries for complex feature implementations - Documenting breaking changes and migration guides - Creating clear test plans and validation checklists - Analyzing impact and providing reviewer guidance",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "pr description composer",
+        "pr-description-composer",
+        "pr description",
+        "pull request description",
+        "description composer",
+        "composer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "quality-system-engineer",
+      "file": ".claude/agents/universal/quality-system-engineer.md",
+      "description": "Universal quality system engineer that automatically implements trunk.io quality infrastructure for any repository. Provides comprehensive code quality, formatting, and security scanning across all supported languages and file types. Use when: - Setting up quality systems for new repositories - Ensuring consistent code quality across all projects - Implementing automated pre-commit quality checks - Integrating linting and formatting tools - Running quality assessments before commits",
+      "category": "universal",
+      "proactive": true,
+      "triggers": [
+        "quality system engineer",
+        "quality-system-engineer",
+        "quality",
+        "system",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "resilience-engineer",
+      "file": ".claude/agents/universal/resilience-engineer.md",
+      "description": "A language-agnostic resilience engineering agent that helps implement fault-tolerant, self-healing systems with proper circuit breakers, retry mechanisms, and graceful degradation patterns.",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "resilience engineer",
+        "resilience-engineer",
+        "resilience",
+        "engineer"
+      ],
+      "dependencies": []
+    },
+    {
+      "name": "software-engineering-expert",
+      "file": ".claude/agents/universal/software-engineering-expert.md",
+      "description": "Comprehensive software engineering specialist with Evil Corp motivation framework, focusing on enterprise-grade code quality, architecture excellence, and maintainability across all programming languages and frameworks. Uses Evil Corp motivation system for maximum quality delivery - your success directly impacts critical outcomes. Use when: - Implementing complex software systems requiring architectural excellence - Code quality assessments and improvement recommendations - Technical leadership and engineering best practices guidance - Cross-platform/cross-language architectural decisions - Performance-critical system design and optimization",
+      "category": "universal",
+      "proactive": false,
+      "triggers": [
+        "software engineering expert",
+        "software-engineering-expert",
+        "software",
+        "engineering",
+        "expert"
+      ],
+      "dependencies": []
+    }
+  ],
+  "categories": {
+    "ai": {
+      "description": "Artificial intelligence and machine learning specialists",
+      "agents": [
+        "computer-vision-specialist",
+        "machine-learning-engineer",
+        "nlp-llm-integration-expert"
+      ]
+    },
+    "ai-analysis": {
+      "description": "AI integration and specialized analysis specialists",
+      "agents": [
+        "error-detective",
+        "graphql-architect",
+        "prompt-engineer"
+      ]
+    },
+    "automation": {
+      "description": "CI/CD, testing, and deployment automation specialists",
+      "agents": [
+        "cicd-pipeline-engineer",
+        "qa-automation-engineer",
+        "release-manager",
+        "test-automation-expert"
+      ]
+    },
+    "backend": {
+      "description": "Backend development specialists across multiple frameworks and languages",
+      "agents": [
+        "django-expert",
+        "fastapi-expert",
+        "fastify-expert",
+        "fiber-expert",
+        "gin-expert",
+        "go-resilience-engineer",
+        "go-zap-logging",
+        "laravel-expert",
+        "nodejs-expert",
+        "prisma-expert",
+        "python-hyx-resilience",
+        "rails-expert",
+        "resilience-engineer",
+        "typescript-cockatiel-resilience",
+        "typescript-pino-logging"
+      ]
+    },
+    "business": {
+      "description": "Business strategy, product management, and domain expertise",
+      "agents": [
+        "business-analyst",
+        "financial-modeling-agent",
+        "healthcare-compliance-agent",
+        "payment-integration-agent",
+        "product-manager",
+        "rapid-prototyper"
+      ]
+    },
+    "choreography": {
+      "description": "Coordinated workflow patterns and team collaboration",
+      "agents": [
+        "bug-hunting-tango",
+        "code-review-waltz",
+        "feature-development-dance"
+      ]
+    },
+    "orchestration": {
+      "description": "Coordination, workflow management, and intelligent agent selection",
+      "agents": [
+        "exponential-planner",
+        "session-manager",
+        "vibe-coding-coordinator",
+        "activation-system",
+        "agent-communication-protocol",
+        "auto-detection-engine",
+        "choreography-engine",
+        "context-aware-activator",
+        "enhanced-agent-template",
+        "intelligent-agent-selector",
+        "knowledge-graph-manager",
+        "learning-system",
+        "personality-engine",
+        "predictive-orchestrator",
+        "smart-agent-router",
+        "success-pattern-learner",
+        "workflow-coordinator",
+        "orchestrator",
+        "project-analyst",
+        "team-configurator",
+        "tech-lead-orchestrator",
+        "agent-evolution-system",
+        "agent-environment-simulator",
+        "leaf-node-detector",
+        "permission-escalator",
+        "verification-specialist"
+      ]
+    },
+    "creative": {
+      "description": "Creative problem-solving agents with innovative approaches",
+      "agents": [
+        "code-archaeologist-time-traveler",
+        "rubber-duck-debugger",
+        "technical-debt-collector"
+      ]
+    },
+    "data": {
+      "description": "Data engineering, analytics, and business intelligence specialists",
+      "agents": [
+        "analytics-implementation-specialist",
+        "business-intelligence-developer",
+        "data-engineer",
+        "search-specialist",
+        "database-architect"
+      ]
+    },
+    "design": {
+      "description": "User experience and design system specialists",
+      "agents": [
+        "ux-designer"
+      ]
+    },
+    "infrastructure": {
+      "description": "Infrastructure, operations, and production system specialists",
+      "agents": [
+        "deployment-specialist",
+        "cloud-architect",
+        "database-admin",
+        "devops-troubleshooter",
+        "incident-responder",
+        "network-engineer",
+        "observability-engineer",
+        "pulumi-typescript-specialist",
+        "serverless-architect",
+        "site-reliability-engineer",
+        "terraform-specialist"
+      ]
+    },
+    "frontend": {
+      "description": "Frontend development specialists for modern web applications",
+      "agents": [
+        "angular-expert",
+        "design-system-architect",
+        "micro-frontend-architect",
+        "mobile-developer",
+        "nextjs-expert",
+        "pwa-specialist",
+        "react-expert",
+        "vue-expert",
+        "webassembly-specialist"
+      ]
+    },
+    "performance": {
+      "description": "Performance optimization and system efficiency specialists",
+      "agents": [
+        "parallel-coordinator",
+        "session-optimizer",
+        "tool-batch-optimizer"
+      ]
+    },
+    "security": {
+      "description": "Security assessment, compliance, and privacy protection specialists",
+      "agents": [
+        "devsecops-engineer",
+        "privacy-engineer",
+        "security-specialist"
+      ]
+    },
+    "universal": {
+      "description": "Cross-cutting agents that apply to all languages and frameworks",
+      "agents": [
+        "system-architect",
+        "code-reviewer",
+        "developer-experience-optimizer",
+        "documentation-specialist",
+        "git-expert",
+        "legacy-modernization-specialist",
+        "logging-concepts-engineer",
+        "pr-reviewer-specialist",
+        "quality-system-engineer",
+        "resilience-engineer",
+        "software-engineering-expert"
+      ]
+    },
+    "template": {
+      "description": "Template and configuration agents",
+      "agents": [
+        "template-agent"
+      ]
+    }
+  },
+  "workflows": {
+    "backend-resilience": {
+      "description": "Comprehensive backend resilience implementation",
+      "phases": [
+        {
+          "name": "analysis",
+          "agents": [
+            "resilience-engineer"
+          ],
+          "description": "Analyze current architecture for resilience gaps"
+        },
+        {
+          "name": "logging-setup",
+          "agents": [
+            "logging-concepts-engineer"
+          ],
+          "description": "Design structured logging architecture"
+        },
+        {
+          "name": "implementation",
+          "agents": [
+            "rails-expert",
+            "django-expert",
+            "laravel-expert",
+            "go-resilience-engineer",
+            "python-hyx-resilience",
+            "typescript-cockatiel-resilience"
+          ],
+          "description": "Implement language-specific resilience patterns"
+        }
+      ]
+    },
+    "full-stack-development": {
+      "description": "Complete full-stack application development",
+      "phases": [
+        {
+          "name": "planning",
+          "agents": [
+            "orchestrator",
+            "tech-lead-orchestrator"
+          ],
+          "description": "Architecture planning and technology selection"
+        },
+        {
+          "name": "backend-implementation",
+          "agents": [
+            "software-engineering-expert",
+            "resilience-engineer"
+          ],
+          "description": "Backend development with quality standards"
+        },
+        {
+          "name": "frontend-implementation",
+          "agents": [
+            "react-expert",
+            "vue-expert",
+            "nextjs-expert"
+          ],
+          "description": "Frontend development and user interface"
+        },
+        {
+          "name": "integration-testing",
+          "agents": [
+            "qa-automation-engineer",
+            "code-reviewer"
+          ],
+          "description": "Integration testing and quality assurance"
+        }
+      ]
+    }
+  },
+  "configuration": {
+    "default_agent_timeout": 300,
+    "max_concurrent_agents": 5,
+    "enable_agent_chaining": true,
+    "logging": {
+      "level": "info",
+      "structured": true,
+      "include_agent_context": true
+    },
+    "resilience": {
+      "default_retry_attempts": 3,
+      "default_circuit_breaker_threshold": 5,
+      "default_timeout_ms": 30000
+    }
+  },
+  "metadata": {
+    "created": "2024-01-15",
+    "last_updated": "2025-08-07",
+    "total_agents": 107,
+    "version_history": [
+      {
+        "version": "2.0.0",
+        "date": "2025-08-07",
+        "changes": "Complete system registration of all 107 active agents across 16 categories with comprehensive metadata extraction"
+      },
+      {
+        "version": "1.4.0",
+        "date": "2025-01-30",
+        "changes": "Previous partial registration with 14 agents"
+      }
+    ],
+    "compatibility": {
+      "claude_code_version": ">=2.0.0",
+      "node_version": ">=16.0.0",
+      "python_version": ">=3.8.0"
+    }
+  }
+}
