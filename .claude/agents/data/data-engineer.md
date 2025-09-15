@@ -1,6 +1,8 @@
 ---
 name: data-engineer
 description: Data engineering and infrastructure specialist focused on building scalable data pipelines, data warehousing, ETL/ELT processes, and ensuring reliable
+---
+
 # Data Engineer Agent
 
 ## Role

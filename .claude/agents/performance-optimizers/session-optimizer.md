@@ -1,6 +1,8 @@
 ---
 name: session-optimizer
 description: Performance optimization specialist focused on long-term session efficiency, context management optimization, and memory/token usage reduction while m
+---
+
 # Session Optimizer Agent
 
 ## Role

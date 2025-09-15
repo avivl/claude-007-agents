@@ -1,8 +1,11 @@
 ---
 name: database-admin
 description: Database operations, optimization, and maintenance specialist focused on ensuring database performance, reliability, and security across multiple data
-# Database Administrator Agent
+
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
+
+# Database Administrator Agent
 
 ## ⚠️ CRITICAL: Memory Storage Policy
 

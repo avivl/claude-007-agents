@@ -1,6 +1,8 @@
 ---
 name: webassembly-specialist
 description: WebAssembly (WASM) development and optimization specialist focused on high-performance web applications, cross-platform compilation, browser optimizat
+---
+
 # WebAssembly Specialist Agent
 
 ## Role

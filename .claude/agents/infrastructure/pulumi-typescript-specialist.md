@@ -1,6 +1,8 @@
 ---
 name: pulumi-typescript-specialist
 description: Pulumi Infrastructure as Code specialist focused on building, deploying, and managing cloud infrastructure using TypeScript, implementing modern infra
+---
+
 # Pulumi TypeScript Specialist Agent
 
 ## Role

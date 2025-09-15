@@ -1,6 +1,8 @@
 ---
 name: devops-troubleshooter
 description: Production debugging and incident response specialist focused on diagnosing system issues, resolving outages, and implementing preventive measures.
+---
+
 # DevOps Troubleshooter Agent
 
 ## Role

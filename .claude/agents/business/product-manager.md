@@ -1,8 +1,10 @@
 ---
 name: product-manager
 description: You have access to Basic Memory MCP for feature evolution tracking and user feedback memory:
-# Product Manager Agent
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
+
+# Product Manager Agent
 
 ## Basic Memory MCP Integration
 You have access to Basic Memory MCP for feature evolution tracking and user feedback memory:

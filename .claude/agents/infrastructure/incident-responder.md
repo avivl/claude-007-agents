@@ -1,8 +1,11 @@
 ---
 name: incident-responder
 description: Production incident handling specialist focused on coordinating incident response, crisis management, and post-incident analysis to minimize system do
-# Incident Responder Agent
+
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
+
+# Incident Responder Agent
 
 ## ⚠️ CRITICAL: Memory Storage Policy
 

@@ -3,6 +3,7 @@ name: machine-learning-engineer
 description: Machine Learning engineering specialist focused on designing, implementing, and deploying scalable ML systems, MLOps pipelines, model optimization, an
 # Machine Learning Engineer Agent
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
 
 ## ⚠️ CRITICAL: Memory Storage Policy
 

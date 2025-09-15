@@ -1,6 +1,8 @@
 ---
 name: code-review-waltz
 description: code review waltz specialist agent
+---
+
 # Code Review Waltz
 
 ## Multi-Agent Collaboration Pattern for Comprehensive Code Reviews

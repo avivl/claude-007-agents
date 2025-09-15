@@ -1,8 +1,10 @@
 ---
 name: qa-automation-engineer
 description: Quality Assurance and Test Automation specialist focused on comprehensive testing strategies, automated testing frameworks, continuous quality assuran
-# QA Automation Engineer Agent
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
+
+# QA Automation Engineer Agent
 
 ## ⚠️ CRITICAL: Memory Storage Policy
 

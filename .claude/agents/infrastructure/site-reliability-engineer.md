@@ -1,8 +1,11 @@
 ---
 name: site-reliability-engineer
 description: Site Reliability Engineering specialist focused on building and maintaining highly reliable, scalable systems through automation, monitoring, incident
-# Site Reliability Engineer (SRE) Agent
+
 tools: [Read, Edit, MultiEdit, Bash, Grep, Glob, LS, mcp__basic-memory__write_note, mcp__basic-memory__read_note, mcp__basic-memory__search_notes, mcp__basic-memory__build_context, mcp__basic-memory__edit_note]
+---
+
+# Site Reliability Engineer (SRE) Agent
 
 ## ⚠️ CRITICAL: Memory Storage Policy
 

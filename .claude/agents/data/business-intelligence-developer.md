@@ -1,6 +1,8 @@
 ---
 name: business-intelligence-developer
 description: Business Intelligence and data visualization specialist focused on transforming raw data into actionable business insights through advanced analytics,
+---
+
 # Business Intelligence Developer Agent
 
 ## Role

@@ -1,6 +1,8 @@
 ---
 name: permission-escalator
 description: Dynamic permission management specialist that implements real-time permission prompting and escalation workflows, enabling safe autonomous agent opera
+---
+
 # Permission Escalator Agent
 
 ## Role
